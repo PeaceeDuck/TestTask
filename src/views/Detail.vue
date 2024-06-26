@@ -44,10 +44,11 @@ fetch('../detail.json')
 }
 
 .card {
-  padding: 24px 46px 42px;
+  margin: 24px 46px 42px;
   display: grid;
   gap: 64px;
   grid-template-columns: repeat(auto-fill, minmax(240px, max-content));
+  align-items: start;
 }
 
 .card__column {
@@ -57,7 +58,9 @@ fetch('../detail.json')
 
 .card__column-left {
   max-width: 240px;
-
+  position: sticky;
+  align-self: start;
+  top: 124px;
   gap: 24px;
 }
 

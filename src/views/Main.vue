@@ -24,7 +24,7 @@ fetch('data.json')
 
 <style scoped>
 .items {
-  padding:  32px 48px;
+  margin: 32px 48px;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(324px, max-content));
