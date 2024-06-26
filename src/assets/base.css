@@ -1,0 +1,80 @@
+:root {
+  --color-background: #000000;
+  --color-background-element: #292D32;
+  --color-text: #FFFFFF;
+  --color-tag-red: #E81A0C;
+  --color-tag-purple: #702BFE;
+  --color-tag-blue: #2C81FB;
+  --color-tag-green: #039C55;
+  --size-h1: 32px;
+  --size-h2: 28px;
+  --size-h3: 24px;
+  --size-h4: 20px;
+  --size-h5: 18px;
+  --size-h6: 16px;
+  --size-text: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#app {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: Roboto, sans-serif;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: var(--size-h1);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: var(--size-h2);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: var(--size-h3);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: var(--size-h4);
+  font-weight: bold;
+}
+
+h5 {
+  font-size: var(--size-h5);
+  font-weight: bold;
+}
+
+h6 {
+  font-size: var(--size-h6);
+  font-weight: bold;
+}
+
+p {
+  font-size: var(--size-text);
+  font-weight: 500;
+}
